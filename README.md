@@ -75,6 +75,8 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contact
+---
 
-For any questions or support, please reach out at [your.email@example.com].
+Made by **[Jona](https://github.com/PacificSilent)** 😊
+
+---
