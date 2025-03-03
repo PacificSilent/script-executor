@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Script Executor</title>
+    <link rel="stylesheet" href="/app.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body class="light">
+    <div id="app">
+      <header>
+        <button id="theme-toggle" class="btn btn-toggle">
+          <svg id="theme-icon" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12 4.5A1.5 1.5 0 0 1 13.5 6 1.5 1.5 0 0 1 12 7.5 1.5 1.5 0 0 1 10.5 6 1.5 1.5 0 0 1 12 4.5M4.22 5.64l1.06 1.06L4.94 8.12 3.88 7.06 4.22 5.64M1 13.5h2.5v-3H1v3m3.64 5.28l1.06-1.06 1.06 1.06-1.06 1.06-1.06-1.06M12 16.5A1.5 1.5 0 0 1 13.5 18 1.5 1.5 0 0 1 12 19.5 1.5 1.5 0 0 1 10.5 18 1.5 1.5 0 0 1 12 16.5m6.36-1.22l1.06 1.06-1.06 1.06-1.06-1.06 1.06-1.06M20 13.5h2.5v-3H20v3m-1.22-6.86l1.06-1.06 1.06 1.06-1.06 1.06-1.06-1.06M16.5 12a4.5 4.5 0 1 1-4.5-4.5 4.5 4.5 0 0 1 4.5 4.5z"
+            ></path>
+          </svg>
+        </button>
+      </header>
+      <div id="scripts-list"></div>
+
+      <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+          <p>Are you sure you want to execute this script?</p>
+          <button id="confirm-button" class="btn btn-primary">Yes</button>
+          <button id="cancel-button" class="btn btn-secondary">No</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

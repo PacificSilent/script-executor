@@ -1,0 +1,327 @@
+:root {
+  --primary-color: #FF8C00;
+  --accent-color: #f8f8f8;
+  --btn-text-color: #000;
+  --text-color: #000;
+  --modal-bg: rgba(0, 0, 0, 0.5);
+}
+
+:root {
+  --primary-color: #FF8C00;
+  --accent-color: #f8f8f8;
+  --btn-text-color: #000;
+  --text-color: #000;
+}
+
+body.light {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+body.dark {
+  background-color: #333;
+  color: var(--accent-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#app {
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.btn-toggle {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--btn-text-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.btn-toggle:hover {
+  transform: scale(1.05);
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--primary-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background-color: #ffa500;
+}
+
+#scripts-list {
+  padding-top: 60px;
+}
+
+#scripts-list h2 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: var(--primary-color);
+}
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-items: center;
+}
+
+.category-container .btn {
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+.category-container .btn:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  width: 400px;
+}
+.modal-content .btn {
+  width: auto;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.modal-content .btn.btn-primary {
+  background-color: #2C3E50;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(44, 62, 80, 0.3);
+}
+.modal-content .btn.btn-primary:hover {
+  background-color: #1F2D3A;
+}
+
+.modal-content .btn.btn-secondary {
+  background-color: #E74C3C;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3);
+}
+.modal-content .btn.btn-secondary:hover {
+  background-color: #C0392B;
+}
+
+@media (max-width: 600px) {
+  .category-container .btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  width: 400px;
+}
+
+.modal-content .btn {
+  width: auto;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.modal-content .btn.btn-primary {
+  background-color: #2C3E50;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(44, 62, 80, 0.3);
+}
+.modal-content .btn.btn-primary:hover {
+  background-color: #1F2D3A;
+}
+
+.modal-content .btn.btn-secondary {
+  background-color: #E74C3C;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3);
+}
+.modal-content .btn.btn-secondary:hover {
+  background-color: #C0392B;
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-items: center;
+}
+
+.category-container .btn {
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.category-container .btn:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .category-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    justify-items: center;
+  }
+  .category-container .btn {
+    padding: 15px 20px;
+    font-size: 1rem;
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.custom-fps-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 8px;
+  background-color: var(--accent-color);
+}
+
+.fps-slider {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.fps-value {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-fps-group button.btn {
+  margin-top: 5px;
+}
+
+.scripts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-fps-group .script-title,
+.custom-fps-group .fps-value {
+  color: #000 !important;
+}
+
+.fps-slider {
+  width: 100%;
+  background: #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px 0;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent calc((100% - 20px)/8),
+    #888 calc((100% - 20px)/8),
+    #888 calc((100% - 20px)/8 + 1px)
+  );
+}

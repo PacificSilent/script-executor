@@ -1,0 +1,138 @@
+[
+  {
+    "name": "toggle_show_info.vbs",
+    "description": "Toggle Show Info",
+    "requiresConfirmation": false,
+    "visible": true,
+    "category": "RTSS",
+    "color": "#FF5733"
+  },
+  {
+    "name": "toggle_lock_fps.vbs",
+    "description": "Toggle Lock FPS",
+    "requiresConfirmation": false,
+    "visible": true,
+    "category": "RTSS",
+    "color": "#FF5733"
+  },
+  {
+    "name": "global_fps_custom.bat",
+    "description": "Set custom FPS",
+    "requiresConfirmation": false,
+    "visible": true,
+    "category": "RTSS Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "end_sessions.vbs",
+    "description": "End Sessions",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "Sunshine",
+    "color": "#33FF57"
+  },
+  {
+    "name": "hdr_on.vbs",
+    "description": "On",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "HDR",
+    "color": "#33FF57"
+  },
+  {
+    "name": "hdr_off.vbs",
+    "description": "Off",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "HDR",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_165.vbs",
+    "description": "165 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_144.bat",
+    "description": "144 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_120.vbs",
+    "description": "120 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_100.vbs",
+    "description": "100 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_90.vbs",
+    "description": "90 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_80.bat",
+    "description": "80 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_70.bat",
+    "description": "70 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_60.vbs",
+    "description": "60 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "global_fps_30.vbs",
+    "description": "30 FPS",
+    "requiresConfirmation": false,
+    "visible": false,
+    "category": "Global FPS",
+    "color": "#33FF57"
+  },
+  {
+    "name": "shutdown.vbs",
+    "description": "Shutdown",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "General",
+    "color": "#33FF57"
+  },
+  {
+    "name": "reboot.vbs",
+    "description": "Reboot",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "General",
+    "color": "#33FF57"
+  }
+]
