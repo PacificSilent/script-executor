@@ -51,7 +51,7 @@
     "name": "global_fps_165.vbs",
     "description": "165 FPS",
     "requiresConfirmation": false,
-    "visible": false,
+    "visible": true,
     "category": "Global FPS",
     "color": "#33FF57"
   },
@@ -67,7 +67,7 @@
     "name": "global_fps_120.vbs",
     "description": "120 FPS",
     "requiresConfirmation": false,
-    "visible": false,
+    "visible": true,
     "category": "Global FPS",
     "color": "#33FF57"
   },
@@ -75,7 +75,7 @@
     "name": "global_fps_100.vbs",
     "description": "100 FPS",
     "requiresConfirmation": false,
-    "visible": false,
+    "visible": true,
     "category": "Global FPS",
     "color": "#33FF57"
   },
@@ -107,7 +107,7 @@
     "name": "global_fps_60.vbs",
     "description": "60 FPS",
     "requiresConfirmation": false,
-    "visible": false,
+    "visible": true,
     "category": "Global FPS",
     "color": "#33FF57"
   },
