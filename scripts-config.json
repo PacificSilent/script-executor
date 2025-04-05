@@ -134,5 +134,13 @@
     "visible": true,
     "category": "General",
     "color": "#33FF57"
+  },
+  {
+    "name": "start_frame_gen.vbs",
+    "description": "Toggle Frame Gen",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "Lossless Scaling",
+    "color": "#FF5733"
   }
 ]
