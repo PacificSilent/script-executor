@@ -6,12 +6,22 @@
     <title>Script Executor</title>
     <link rel="stylesheet" href="/app.css" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="/app.js"></script>
   </head>
   <body class="light">
     <div id="app">
       <header>
-        <button id="theme-toggle" class="btn btn-toggle">
+        <button
+          id="theme-toggle"
+          class="btn btn-toggle"
+          aria-label="Toggle theme"
+        >
           <svg id="theme-icon" width="24" height="24" viewBox="0 0 24 24">
             <path
               fill="currentColor"
@@ -20,13 +30,22 @@
           </svg>
         </button>
       </header>
+
+      <div class="app-title-container">
+        <h1 class="app-title">Game Performance Optimizer</h1>
+        <p class="app-subtitle">
+          Optimize your gaming experience with one-click performance tweaks
+        </p>
+      </div>
       <div id="scripts-list"></div>
 
       <div id="confirmation-modal" class="modal">
         <div class="modal-content">
           <p>Are you sure you want to execute this script?</p>
-          <button id="confirm-button" class="btn btn-primary">Yes</button>
-          <button id="cancel-button" class="btn btn-secondary">No</button>
+          <div class="modal-actions">
+            <button id="confirm-button" class="btn btn-primary">Yes</button>
+            <button id="cancel-button" class="btn btn-secondary">No</button>
+          </div>
         </div>
       </div>
     </div>
