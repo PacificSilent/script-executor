@@ -373,3 +373,11 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .btn-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+  }
+}
+
