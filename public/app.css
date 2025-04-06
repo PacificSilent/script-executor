@@ -381,3 +381,12 @@ header {
   }
 }
 
+.fps-slider::-webkit-slider-thumb {
+  /* ...existing properties... */
+  margin-top: -10px; /* Ajusta este valor según convenga */
+}
+
+.fps-slider::-moz-range-thumb {
+  /* ...existing properties... */
+  margin-top: -10x; /* Puede que necesites ajustar este valor */
+}
