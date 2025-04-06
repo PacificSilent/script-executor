@@ -59,7 +59,7 @@
     "name": "global_fps_90.vbs",
     "description": "90 FPS",
     "requiresConfirmation": false,
-    "visible": false,
+    "visible": true,
     "category": "Global FPS",
     "color": "#FF5733"
   },
@@ -141,6 +141,22 @@
     "requiresConfirmation": true,
     "visible": true,
     "category": "Lossless Scaling",
+    "color": "#FF5733"
+  },
+  {
+    "name": "close_ryujinx.vbs",
+    "description": "Close Ryujinx",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "Close Apps",
+    "color": "#FF5733"
+  },
+  {
+    "name": "close_pcsx2.vbs",
+    "description": "Close PCSX2",
+    "requiresConfirmation": true,
+    "visible": true,
+    "category": "Close Apps",
     "color": "#FF5733"
   }
 ]
